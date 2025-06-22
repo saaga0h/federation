@@ -25,7 +25,7 @@ Install instruction for Ollama, working gpu drivers on host required.
 ls -al /dev/nvidia*
 ```
 
-> It will output something similar to this for a single GPU (nvidia0) and the universal groups for nvidiactl, nvidia-uvm, nvidia-uvm-tools, nvidia-cap1 and nvidia-cap2. Note the 195, 509 and 234 listed here. Those id’s WILL be different for you and we will note what those are and use them in the next step.
+> It will output something similar to this for a single GPU (nvidia0) and the universal groups for nvidiactl, nvidia-uvm, nvidia-uvm-tools, nvidia-cap1 and nvidia-cap2. Note the 195, 511 and 237 listed here. Those id’s WILL be different for you and we will note what those are and use them in the next step.
 
 \- [Guide from Digital Spaceport](https://digitalspaceport.com/proxmox-lxc-gpu-passthru-setup-guide/)
 
