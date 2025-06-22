@@ -1,3 +1,13 @@
+# Variables
+.env
+*.env
+.env.local
+.env.*.local
+
+# Generated JSON/Map files
+network/scripts/*.json
+network/network_diagrams/*
+
 # Logs
 logs
 *.log
@@ -128,3 +138,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.DS_Store
