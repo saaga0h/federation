@@ -14,7 +14,7 @@
     - CIDR: 192.168.200.5/24
     - VLAN: none
     - Not connected, used internally as storage network
-    
+
 ## Telegraf
 
 **Requirements**
@@ -109,3 +109,6 @@ compatibility_level = 2
 - **pulse**: pulse@pve
 - **terraform**: terraform@pam
 - **zbbix**: zbbix@pve
+
+## ZFS monitoring
+[Rob's blog](https://blog.roberthallam.org/2022/09/monitoring-zfs-latencies-in-proxmox-part-1/) has a good article series of monitoring ZFS on Proxmox.
